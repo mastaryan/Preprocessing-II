@@ -1,1 +1,32 @@
 // Navigation Styles here
+.navbar {
+    align-items: center;
+    border-bottom: 3px dashed grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15px;
+    width: 40%;
+}
+
+@media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
