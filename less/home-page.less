@@ -1,14 +1,23 @@
 .home {
 
+  .heading {
+    font-size: 32px;
+    margin-top: 18px;
+  }
+
+  .heading-text {
+    margin-top: 12px;
+    border-bottom: 2px dashed grey;
+    padding-bottom: 20px;
+  }
+
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
-    .text-content {
+  .text-content {
       width: 48%;
       padding-right: 1%;
     }
@@ -58,4 +67,15 @@
       margin-bottom: 30px;
     }
   }
-}// home
+  
+  .btn {
+    .btn-creator()
+  }
+  @media (max-width: 500px){
+    .content-pick {
+      flex-direction: column;
+    }
+  }
+  
+  }
+// home
